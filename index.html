@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrumbBox – Fresh Bakery</title>
+    <meta name="description" content="Artisan bakery offering breads, pastries, and custom cakes. Order online or visit us.">
+    <link rel="stylesheet" href="css/_variables.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Freshly Baked Joy, Every Day</h1>
+        <p>Artisan breads & pastries made with love.</p>
+        <a href="#order" class="cta-btn">Order Now</a>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="assets/images/menu-item-1.jpg" alt="Chocolate Croissant">
+                <h3>Chocolate Croissant</h3>
+                <p>Flaky layers filled with rich chocolate.</p>
+                <p class="price">$3.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="assets/images/menu-item-2.jpg" alt="Almond Danish">
+                <h3>Almond Danish</h3>
+                <p>Buttery pastry topped with sweet almond filling.</p>
+                <p class="price">$4.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="assets/images/menu-item-3.jpg" alt="Sourdough Loaf">
+                <h3>Sourdough Loaf</h3>
+                <p>Traditional sourdough with crispy crust and tangy flavor.</p>
+                <p class="price">$8.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Our Bakers Section -->
+    <section class="about" id="about">
+        <h2>Meet Our Bakers</h2>
+        <div class="bakers-grid">
+            <div class="baker-card">
+                <img src="assets/images/baker-1.jpg" alt="Baker Anna">
+                <h3>Anna Martinez</h3>
+                <p>Head Baker, 10 years experience</p>
+            </div>
+            <div class="baker-card">
+                <img src="assets/images/baker-2.jpg" alt="Baker Carlos">
+                <h3>Carlos Rivera</h3>
+                <p>Pastry Chef, 8 years experience</p>
+            </div>
+            <div class="baker-card">
+                <img src="assets/images/baker-3.jpg" alt="Baker Elena">
+                <h3>Elena Petrova</h3>
+                <p>Bread Specialist, 12 years experience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-slider">
+            <div class="testimonial">
+                <p>"The best sourdough in town!"</p>
+                <p class="rating">★★★★★</p>
+                <p class="author">- James L.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Their croissants are to die for - flaky and perfect every time!"</p>
+                <p class="rating">★★★★★</p>
+                <p class="author">- Maria S.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Custom cake for my daughter's birthday was absolutely stunning!"</p>
+                <p class="rating">★★★★★</p>
+                <p class="author">- David T.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order/Contact Section -->
+    <section class="order-contact" id="order">
+        <h2>Order / Contact Us</h2>
+        <form id="contactForm">
+            <label>Name <input type="text" name="name" required></label>
+            <label>Email <input type="email" name="email" required></label>
+            <label>Phone <input type="tel" name="phone"></label>
+            <label>Message <textarea name="message" rows="4"></textarea></label>
+            <button type="submit">Send</button>
+        </form>
+        <div id="formSuccess" class="hidden">Thank you! We'll get back to you soon.</div>
+    </section>
+
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
