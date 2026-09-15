@@ -1,0 +1,46 @@
+.hero {
+    background: linear-gradient(rgba(255, 248, 231, 0.9), rgba(255, 248, 231, 0.9)), 
+                url('../assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 var(--spacing-sm);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--dark-brown);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-lg);
+    color: var(--brown);
+    max-width: 600px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: var(--brown);
+    color: var(--cream);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.cta-btn:hover {
+    background-color: var(--dark-brown);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
